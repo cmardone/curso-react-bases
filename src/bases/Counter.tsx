@@ -12,7 +12,9 @@ export const Counter = ({ initialValue = 0 }: Props) => {
   return (
     <>
       <h1>Counter: {counter}</h1>
-      <button onClick={addClickHandle}>+1</button>
+      <button type='button' onClick={addClickHandle}>
+        +1
+      </button>
     </>
   );
 };
